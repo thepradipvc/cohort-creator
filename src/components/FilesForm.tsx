@@ -62,15 +62,17 @@ const FilesForm = ({
         <Button
           variant="outline"
           className="relative w-full"
-          aria-hidden
           type="button"
+          asChild
         >
-          <Input
-            className="absolute inset-0 opacity-0"
-            type="file"
-            onChange={handleChange}
-          />
-          Add File
+          <span>
+            <Input
+              className="absolute inset-0 opacity-0"
+              type="file"
+              onChange={handleChange}
+            />
+            Add File
+          </span>
         </Button>
       </div>
     </div>

@@ -27,6 +27,7 @@ const ModulesList = ({ setCurrentLesson }: ModulesListProps) => {
           />
         ))}
         <Button
+          type="button"
           className="mx-auto block"
           variant="outline"
           onClick={() => fieldArray.append(defaultCohortFormValues.modules[0])}

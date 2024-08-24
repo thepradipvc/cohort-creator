@@ -92,11 +92,7 @@ const CohortForm = () => {
                       <Button
                         variant="ghost"
                         type="button"
-                        onClick={() =>
-                          // TODO: Implement cancel functionality
-                          // Reset these form values to original values
-                          navigate("/cohorts")
-                        }
+                        onClick={() => navigate("/cohorts")}
                       >
                         Back
                       </Button>

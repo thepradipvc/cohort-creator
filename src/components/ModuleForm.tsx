@@ -59,6 +59,7 @@ const ModuleForm = ({
             )}
           />
           <Button
+            type="button"
             variant="outline"
             disabled={currentModule.title === ""}
             onClick={() => {
@@ -75,6 +76,7 @@ const ModuleForm = ({
             Module {moduleIndex + 1} - {currentModule.title}
           </h2>
           <Button
+            type="button"
             variant="destructive"
             className="mx-auto block"
             onClick={deleteModule}
@@ -98,6 +100,7 @@ const ModuleForm = ({
               <span>{lesson.title}</span>
             </div>
             <Button
+              type="button"
               variant="ghost"
               className="text-destructive hover:text-destructive"
               onClick={() => fieldArray.remove(lessonIndex)}
@@ -114,6 +117,7 @@ const ModuleForm = ({
         </div>
       )}
       <Button
+        type="button"
         className="w-full"
         variant="outline"
         onClick={() => {
