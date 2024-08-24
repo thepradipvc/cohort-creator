@@ -10,6 +10,9 @@ const LessonPreview = ({ lessonIdentifier }: { lessonIdentifier: string }) => {
     name: `modules.${moduleIndex}.lessons.${lessonIndex}`,
   }) as CohortFormSchema["modules"][number]["lessons"][number];
 
+  console.log(lessonData.files);
+  console.log("length", lessonData.files?.length);
+
   return (
     <div className="relative space-y-4 p-4 pt-8">
       <span className="absolute left-0 top-0 rounded-br-md bg-slate-200 p-1">

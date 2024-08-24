@@ -88,7 +88,20 @@ const CohortForm = () => {
 
                     <ModulesList setCurrentLesson={setCurrentLesson} />
 
-                    <Button type="submit">Submit</Button>
+                    <div className="flex gap-2">
+                      <Button
+                        variant="ghost"
+                        type="button"
+                        onClick={() =>
+                          // TODO: Implement cancel functionality
+                          // Reset these form values to original values
+                          navigate("/cohorts")
+                        }
+                      >
+                        Back
+                      </Button>
+                      <Button type="submit">Submit</Button>
+                    </div>
                   </div>
                 </div>
                 <CohortPreview />

@@ -71,3 +71,7 @@
 .CodeMirror-scroll {
   @apply min-h-40 !important;
 }
+
+html {
+  scrollbar-gutter: stable;
+}
