@@ -46,10 +46,11 @@ const FilesForm = ({
         )}
         {files?.map((file, fileIndex) => (
           <div key={fileIndex} className="flex items-center gap-2">
-            <p className="flex-1">
+            <p className="line-clamp-1 flex-1">
               {fileIndex + 1}. {file.name}
             </p>
             <Button
+              type="button"
               variant="destructive"
               onClick={() => fieldArray.remove(fileIndex)}
               size="icon"

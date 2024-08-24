@@ -27,6 +27,7 @@
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.26.1",
     "react-simplemde-editor": "^5.2.0",
+    "roman-numerals": "^0.3.2",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "uuid": "^10.0.0",

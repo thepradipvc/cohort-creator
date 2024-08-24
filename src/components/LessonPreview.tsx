@@ -1,8 +1,7 @@
 import { CohortFormSchema } from "@/lib/types";
+import { FileTextIcon } from "@radix-ui/react-icons";
 import { useWatch } from "react-hook-form";
 import ReactMarkdown from "react-markdown";
-import { Button } from "./ui/button";
-import { DownloadIcon } from "@radix-ui/react-icons";
 
 const LessonPreview = ({ lessonIdentifier }: { lessonIdentifier: string }) => {
   const [moduleIndex, lessonIndex] = lessonIdentifier.split("-").map(Number);
@@ -34,26 +33,26 @@ const LessonPreview = ({ lessonIdentifier }: { lessonIdentifier: string }) => {
 
         {lessonData.files?.length ? (
           <div>
-            <h2 className="text-lg font-medium">Materials</h2>
+            <h2 className="text-lg font-medium">Resources</h2>
             <ul className="space-y-2">
               {lessonData.files.map((file, index) => {
                 return (
                   file.url !== "" && (
                     <li
                       key={index}
-                      className="flex items-center gap-2 rounded-md bg-secondary px-2 py-1"
+                      className="flex items-center text-blue-500 underline-offset-4 hover:text-blue-700 hover:underline"
                     >
-                      <span className="flex-1">{file.name}</span>
-                      <Button asChild size="icon" variant="secondary">
-                        <a
-                          href={file.url}
-                          target="_blank"
-                          download={file.name}
-                          rel="noreferrer"
-                        >
-                          <DownloadIcon />
-                        </a>
-                      </Button>
+                      <a
+                        href={file.url}
+                        target="_blank"
+                        download={file.name}
+                        rel="noreferrer"
+                      >
+                        <span className="line-clamp-1 space-x-2">
+                          <FileTextIcon className="mr-1 inline-block h-4 w-4" />
+                          {file.name}
+                        </span>
+                      </a>
                     </li>
                   )
                 );
@@ -62,7 +61,7 @@ const LessonPreview = ({ lessonIdentifier }: { lessonIdentifier: string }) => {
           </div>
         ) : (
           <div>
-            <p>No material available</p>
+            <p>No resources available</p>
           </div>
         )}
       </div>
