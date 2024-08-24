@@ -1,0 +1,264 @@
+{
+  "12c6448c-04e1-4fa2-90ed-64027c32c1e7": {
+    "title": "Web Development Bootcamp",
+    "description": "An intensive program designed to teach you the fundamentals of web development, covering both front-end and back-end technologies.",
+    "modules": [
+      {
+        "title": "Introduction to HTML & CSS",
+        "lessons": [
+          {
+            "title": "Getting Started with HTML",
+            "description": "Learn the basics of HTML, the standard markup language for creating web pages.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Styling with CSS",
+            "description": "Understand how to style your HTML using CSS, including layout techniques and responsive design.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "JavaScript Basics",
+        "lessons": [
+          {
+            "title": "Introduction to JavaScript",
+            "description": "Learn the fundamentals of JavaScript, the programming language of the web.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "DOM Manipulation",
+            "description": "Understand how to manipulate the Document Object Model (DOM) using JavaScript.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Backend Development with Node.js",
+        "lessons": [
+          {
+            "title": "Introduction to Node.js",
+            "description": "Learn the basics of Node.js, a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Building APIs with Express",
+            "description": "Understand how to build and structure APIs using the Express.js framework.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      }
+    ]
+  },
+  "d209676c-74c0-44af-8160-b73088691585": {
+    "title": "Data Science Fundamentals",
+    "description": "A comprehensive course covering the essential concepts and tools in data science, including statistics, data manipulation, and machine learning.",
+    "modules": [
+      {
+        "title": "Introduction to Data Science",
+        "lessons": [
+          {
+            "title": "What is Data Science?",
+            "description": "An overview of data science, its importance in the modern world, and key areas of application.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Data Science Tools",
+            "description": "A look at the common tools and software used in data science, such as Python, R, and SQL.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Statistics for Data Science",
+        "lessons": [
+          {
+            "title": "Descriptive Statistics",
+            "description": "Learn about measures of central tendency, dispersion, and how to summarize data.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Inferential Statistics",
+            "description": "An introduction to hypothesis testing, confidence intervals, and making inferences from data.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Data Manipulation with Python",
+        "lessons": [
+          {
+            "title": "Working with Pandas",
+            "description": "Learn how to manipulate data using the Pandas library in Python, including data frames, indexing, and filtering.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Data Cleaning Techniques",
+            "description": "Understand how to clean and prepare your data for analysis, including handling missing data and outliers.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      }
+    ]
+  },
+  "e1c6f031-fab6-49c6-a7a8-e1034ef17a1e": {
+    "title": "Full Stack Development Mastery",
+    "description": "An advanced program designed to equip learners with the skills needed to build complete web applications from scratch, covering both front-end and back-end technologies, along with deployment strategies.",
+    "modules": [
+      {
+        "title": "Front-End Development",
+        "lessons": [
+          {
+            "title": "Advanced HTML & CSS",
+            "description": "Deep dive into HTML5 and CSS3, exploring complex layouts, animations, and responsive design techniques.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "JavaScript & DOM Manipulation",
+            "description": "Master JavaScript, focusing on ES6+ features, and learn how to manipulate the DOM efficiently to create dynamic web pages.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Introduction to React",
+            "description": "Get started with React, learning about components, state management, and hooks to build interactive UIs.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Back-End Development",
+        "lessons": [
+          {
+            "title": "Introduction to Node.js",
+            "description": "Learn about Node.js, its architecture, and how to set up a basic server for handling requests and responses.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Building RESTful APIs with Express",
+            "description": "Understand how to design and build RESTful APIs using Express.js, including routing, middleware, and error handling.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Database Design & SQL",
+            "description": "Explore relational databases, SQL, and learn how to design normalized database schemas for efficient data storage and retrieval.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Full Stack Integration",
+        "lessons": [
+          {
+            "title": "Connecting Front-End to Back-End",
+            "description": "Learn how to integrate the front-end with back-end APIs, managing data flow and ensuring seamless communication between client and server.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Authentication & Authorization",
+            "description": "Implement secure user authentication and authorization using JWT, OAuth2, and session management techniques.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Real-Time Communication with WebSockets",
+            "description": "Master WebSockets to enable real-time communication between client and server, suitable for chat apps, live updates, and more.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Deployment & DevOps",
+        "lessons": [
+          {
+            "title": "Introduction to Cloud Platforms",
+            "description": "Get acquainted with cloud platforms like AWS, Azure, and GCP, and understand their role in modern web development.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Containerization with Docker",
+            "description": "Learn how to containerize your applications using Docker, making them easy to deploy and scale across different environments.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "CI/CD Pipelines",
+            "description": "Implement Continuous Integration and Continuous Deployment pipelines using tools like Jenkins, GitHub Actions, or GitLab CI, ensuring your applications are tested and deployed automatically.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      },
+      {
+        "title": "Capstone Project",
+        "lessons": [
+          {
+            "title": "Project Planning & Architecture",
+            "description": "Plan and design the architecture for your full-stack project, considering both technical and business requirements.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Development & Iteration",
+            "description": "Develop your project in phases, incorporating feedback and refining features as you progress.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          },
+          {
+            "title": "Final Presentation & Deployment",
+            "description": "Prepare and deliver a presentation of your project, and deploy it to a live environment for real-world use.",
+            "isVideo": false,
+            "videoUrl": "",
+            "files": []
+          }
+        ]
+      }
+    ]
+  }
+}
