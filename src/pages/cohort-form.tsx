@@ -112,12 +112,10 @@ const CohortForm = () => {
               >
                 <div className="grid grid-cols-[3fr_2fr] divide-x rounded-xl border border-gray-300">
                   <div className="p-4">
-                    <div className="space-y-6">
-                      <LessonForm
-                        lessonIdentifier={currentLesson}
-                        setCurrentLesson={setCurrentLesson}
-                      />
-                    </div>
+                    <LessonForm
+                      lessonIdentifier={currentLesson}
+                      setCurrentLesson={setCurrentLesson}
+                    />
                   </div>
                   <LessonPreview lessonIdentifier={currentLesson} />
                 </div>

@@ -94,7 +94,11 @@ const ModuleForm = ({
           >
             <div
               className="flex-1 cursor-pointer rounded-md p-2 pl-4 hover:bg-accent hover:text-accent-foreground"
-              onClick={() => setCurrentLesson(`${moduleIndex}-${lessonIndex}`)}
+              onClick={() => {
+                // @ts-expect-error - just setting it temporarily
+                window.tempCurrentLessonData = lesson;
+                setCurrentLesson(`${moduleIndex}-${lessonIndex}`);
+              }}
             >
               <span>Lesson {lessonIndex + 1}. </span>
               <span>{lesson.title}</span>

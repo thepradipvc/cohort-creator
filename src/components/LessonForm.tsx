@@ -61,11 +61,19 @@ const LessonForm = ({
         <Button
           variant="ghost"
           type="button"
-          onClick={
-            // TODO: Implement cancel functionality
-            // Reset these form values to original values
-            () => setCurrentLesson(null)
-          }
+          onClick={() => {
+            const originalLessonData =
+              // @ts-expect-error - have just set this temporarily
+              window.tempCurrentLessonData as CohortFormSchema["modules"][number]["lessons"][number];
+            // @ts-expect-error - have just set this temporarily
+            delete window.tempCurrentLessonData;
+            setCurrentLesson(null);
+            if (originalLessonData) {
+              form.resetField(`modules.${moduleIndex}.lessons.${lessonIndex}`, {
+                defaultValue: originalLessonData,
+              });
+            }
+          }}
         >
           Back
         </Button>
@@ -76,6 +84,8 @@ const LessonForm = ({
               `modules.${moduleIndex}.lessons.${lessonIndex}`,
             );
             if (isValid) {
+              // @ts-expect-error - have just set this temporarily
+              delete window.tempCurrentLessonData;
               setCurrentLesson(null);
             }
           }}
